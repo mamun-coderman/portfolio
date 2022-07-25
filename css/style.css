@@ -4,11 +4,11 @@ body{
 }
 
 .top_area{
-    height: 400px;
+    height: 500px;
     display: flex;
     background-image: url("../images/top.png");
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    padding-bottom: 200px;    
 }
 
 .half_width{
@@ -32,4 +32,12 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream_area{
+    height: 500px;
+    display: flex;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-bottom: 150px;
 }
