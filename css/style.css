@@ -4,8 +4,11 @@ body{
 }
 
 .top_area{
+    height: 400px;
     display: flex;
-    height: 500px;
+    background-image: url("../images/top.png");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 
 .half_width{
@@ -13,7 +16,7 @@ body{
     margin-left: 5%;
     padding-left: 3%;
 }
-h1{
+.half_width h1{
     font-size: 50px;
 }
 .half_width img{
