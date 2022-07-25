@@ -2,8 +2,10 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .top_area{
     display: flex;
+    height: 500px;
 }
 
 .half_width{
@@ -19,4 +21,12 @@ h1{
 }
 .orange_color{
     color: orange;
+}
+.ancor-button{
+    padding: 10px 35px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
