@@ -16,15 +16,27 @@ body{
     margin-left: 5%;
     padding-left: 3%;
 }
-.half_width h1{
+
+h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
 .half_width img{
     width: 100%;
 }
+
 .orange_color{
     color: orange;
 }
+
 .ancor-button{
     padding: 10px 35px;
     text-decoration: none;
@@ -33,11 +45,20 @@ body{
     color: white;
     font-weight: 700;
 }
+
 .dream_area{
     height: 500px;
     display: flex;
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right center;
+    padding-bottom: 150px;
+}
+
+.flexible{
+    display: flex;
+}
+
+.experience_area{
     padding-bottom: 150px;
 }
