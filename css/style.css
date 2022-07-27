@@ -40,7 +40,7 @@ p{
 .ancor-button{
     padding: 10px 35px;
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(lightsalmon, tomato);
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -57,8 +57,32 @@ p{
 
 .flexible{
     display: flex;
+    height: 80%;
 }
 
 .experience_area{
-    padding-bottom: 150px;
+    height: 500px;
+    padding-bottom: 200px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience_item{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 3%;
+}
+
+#item_one{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#item_two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
