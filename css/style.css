@@ -90,3 +90,65 @@ p{
 footer p{
     text-align: center;
 }
+
+/* Responsive Design for Mobile */
+
+@media screen and (max-width: 576px) {
+
+    .top_area, 
+    .dream_area, 
+    .flexible {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .half_width {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .half_width img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .experience_item {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .experience_area {
+        height: auto;
+        padding-bottom: 50px;
+        background-position: top left;
+        background-size: cover;
+    }
+
+    .dream_area {
+        background-position: top right;
+        background-size: cover;
+    }
+
+    .ancor-button {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 25px;
+    }
+
+    footer p {
+        padding: 20px;
+    }
+
+}
