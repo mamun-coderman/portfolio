@@ -130,6 +130,7 @@ footer {
         flex-direction: column;
         height: auto;
         background-size: cover;
+        background-position: center;
         padding-bottom: 50px;
     }
 
