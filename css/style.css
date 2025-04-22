@@ -129,8 +129,6 @@ footer {
     .flexible {
         flex-direction: column;
         height: auto;
-        background-size: cover;
-        background-position: top center;
         padding-bottom: 50px;
     }
 
@@ -164,12 +162,12 @@ footer {
         height: auto;
         padding-bottom: 50px;
         background-position: top left;
-        background-size: cover;
+        background-size: contain;
     }
 
     .dream_area {
         background-position: top right;
-        background-size: cover;
+        background-size: contain;
     }
 
     .ancor-button {
