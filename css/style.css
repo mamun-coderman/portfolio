@@ -167,8 +167,12 @@ footer {
     .dream_area {
         background: none;
     }
-   . dream_image{
+   .dream_image{
        display: none;
+   }
+   .dream-area > h2{
+       display: flex;
+       justify-content: center;
    }
 
     .ancor-button {
