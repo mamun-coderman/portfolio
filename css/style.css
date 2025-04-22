@@ -163,15 +163,15 @@ footer {
     .experience_area {
         background: none;
     }
+    .experience_area h2 {
+        text-align: center;
+    }
 
     .dream_area {
         background: none;
     }
    .dream_image{
        display: none;
-   }
-   .experience_area > h2{
-       text-align: center;
    }
 
     .ancor-button {
