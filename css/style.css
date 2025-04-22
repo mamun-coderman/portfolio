@@ -171,8 +171,7 @@ footer {
        display: none;
    }
    .experience-area > h2{
-       display: flex;
-       justify-content: center;
+       text-align: center;
    }
 
     .ancor-button {
