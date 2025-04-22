@@ -129,6 +129,7 @@ footer {
     .flexible {
         flex-direction: column;
         height: auto;
+        background-size: cover;
         padding-bottom: 50px;
     }
 
