@@ -125,7 +125,8 @@ footer {
 @media screen and (max-width: 576px) {
 
     .top_area, 
-    .dream_area, 
+    .dream_area,
+    .experience_area,
     .flexible {
         flex-direction: column;
         height: auto;
@@ -160,16 +161,15 @@ footer {
     }
 
     .experience_area {
-        height: auto;
-        padding-bottom: 50px;
-        background-position: top left;
-        background-size: contain;
+        background: none;
     }
 
     .dream_area {
-        background-position: top right;
-        background-size: contain;
+        background: none;
     }
+   . dream_image{
+       display: none;
+   }
 
     .ancor-button {
         display: inline-block;
